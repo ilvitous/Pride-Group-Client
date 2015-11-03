@@ -10,6 +10,14 @@
 		3D472E271BE2DA0A008FD202 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D472E261BE2DA0A008FD202 /* Launch Screen.storyboard */; };
 		3D472E291BE2E011008FD202 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D472E281BE2E011008FD202 /* HomeViewController.swift */; };
 		3D472E2B1BE2E4D3008FD202 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D472E2A1BE2E4D3008FD202 /* QuartzCore.framework */; };
+		3D472E2E1BE3CC9D008FD202 /* thumb in Resources */ = {isa = PBXBuildFile; fileRef = 3D472E2D1BE3CC9D008FD202 /* thumb */; };
+		3D472E301BE40D85008FD202 /* galleryHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D472E2F1BE40D85008FD202 /* galleryHomeViewController.swift */; };
+		3D472E321BE42BD0008FD202 /* full in Resources */ = {isa = PBXBuildFile; fileRef = 3D472E311BE42BD0008FD202 /* full */; };
+		3D472E371BE44161008FD202 /* SlideShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D472E341BE44161008FD202 /* SlideShowController.swift */; };
+		3D472E381BE44161008FD202 /* SlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D472E351BE44161008FD202 /* SlideController.swift */; };
+		3D472E391BE44161008FD202 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D472E361BE44161008FD202 /* ImageScrollView.swift */; };
+		3D8287581BE9444C00F35E70 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8287571BE9444C00F35E70 /* SWRevealViewController.m */; };
+		3D82875B1BE9480600F35E70 /* Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D82875A1BE9480600F35E70 /* Ultra.ttf */; };
 		814C3ACA1B69877600E307BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC61B69877600E307BB /* Main.storyboard */; };
 		814C3ACB1B69877600E307BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC81B69877600E307BB /* Images.xcassets */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
@@ -25,6 +33,16 @@
 		3D472E261BE2DA0A008FD202 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3D472E281BE2E011008FD202 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 		3D472E2A1BE2E4D3008FD202 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D472E2D1BE3CC9D008FD202 /* thumb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = thumb; sourceTree = "<group>"; };
+		3D472E2F1BE40D85008FD202 /* galleryHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = galleryHomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D472E311BE42BD0008FD202 /* full */ = {isa = PBXFileReference; lastKnownFileType = folder; path = full; sourceTree = "<group>"; };
+		3D472E341BE44161008FD202 /* SlideShowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowController.swift; sourceTree = "<group>"; };
+		3D472E351BE44161008FD202 /* SlideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideController.swift; sourceTree = "<group>"; };
+		3D472E361BE44161008FD202 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		3D8287551BE9444B00F35E70 /* PrideGroup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrideGroup-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D8287561BE9444C00F35E70 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3D8287571BE9444C00F35E70 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3D82875A1BE9480600F35E70 /* Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ultra.ttf; sourceTree = "<group>"; };
 		814C3AC71B69877600E307BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814C3AC81B69877600E307BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		814C3AC91B69877600E307BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +77,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D472E2C1BE3CC86008FD202 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D472E311BE42BD0008FD202 /* full */,
+				3D472E2D1BE3CC9D008FD202 /* thumb */,
+			);
+			name = Images;
+			path = ParseStarterProject;
+			sourceTree = "<group>";
+		};
+		3D472E331BE4414F008FD202 /* Slideshow */ = {
+			isa = PBXGroup;
+			children = (
+				3D472E341BE44161008FD202 /* SlideShowController.swift */,
+				3D472E351BE44161008FD202 /* SlideController.swift */,
+				3D472E361BE44161008FD202 /* ImageScrollView.swift */,
+			);
+			name = Slideshow;
+			sourceTree = "<group>";
+		};
+		3D8287541BE9444000F35E70 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D8287561BE9444C00F35E70 /* SWRevealViewController.h */,
+				3D8287571BE9444C00F35E70 /* SWRevealViewController.m */,
+				3D8287551BE9444B00F35E70 /* PrideGroup-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3D8287591BE947FC00F35E70 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D82875A1BE9480600F35E70 /* Ultra.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		814C3AC51B69877600E307BB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +127,10 @@
 		81BA813C1A49DA1800E65899 = {
 			isa = PBXGroup;
 			children = (
+				3D8287591BE947FC00F35E70 /* Fonts */,
+				3D8287541BE9444000F35E70 /* SWRevealViewController */,
+				3D472E331BE4414F008FD202 /* Slideshow */,
+				3D472E2C1BE3CC86008FD202 /* Images */,
 				81BA81471A49DA1800E65899 /* PrideGroup */,
 				814C3AC51B69877600E307BB /* Resources */,
 				81BA816A1A49DB5600E65899 /* Frameworks */,
@@ -92,6 +152,7 @@
 				3D472E281BE2E011008FD202 /* HomeViewController.swift */,
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
+				3D472E2F1BE40D85008FD202 /* galleryHomeViewController.swift */,
 				3D472E261BE2DA0A008FD202 /* Launch Screen.storyboard */,
 			);
 			name = PrideGroup;
@@ -150,7 +211,7 @@
 		81BA813D1A49DA1800E65899 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Parse;
 				TargetAttributes = {
@@ -183,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D472E271BE2DA0A008FD202 /* Launch Screen.storyboard in Resources */,
+				3D82875B1BE9480600F35E70 /* Ultra.ttf in Resources */,
+				3D472E321BE42BD0008FD202 /* full in Resources */,
+				3D472E2E1BE3CC9D008FD202 /* thumb in Resources */,
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
 			);
@@ -212,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8287581BE9444C00F35E70 /* SWRevealViewController.m in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 				3D472E291BE2E011008FD202 /* HomeViewController.swift in Sources */,
+				3D472E381BE44161008FD202 /* SlideController.swift in Sources */,
+				3D472E391BE44161008FD202 /* ImageScrollView.swift in Sources */,
+				3D472E371BE44161008FD202 /* SlideShowController.swift in Sources */,
+				3D472E301BE40D85008FD202 /* galleryHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -303,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +396,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pridegroup.PrideGroup;
 				PRODUCT_NAME = PrideGroup;
+				SWIFT_OBJC_BRIDGING_HEADER = "PrideGroup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -334,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pridegroup.PrideGroup;
 				PRODUCT_NAME = PrideGroup;
+				SWIFT_OBJC_BRIDGING_HEADER = "PrideGroup-Bridging-Header.h";
 			};
 			name = Release;
 		};
